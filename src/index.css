@@ -24,6 +24,7 @@
     --input: 214.3 31.8% 91.4%;
     --ring: 222 89% 51%;
     --radius: 0.75rem;
+    --font-poppins: 'Poppins', sans-serif;
   }
 
   .dark {
@@ -46,6 +47,7 @@
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 224.3 76.3% 48%;
+    --font-poppins: 'Poppins', sans-serif;
   }
 
   * {
@@ -53,7 +55,20 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: var(--font-poppins);
+    font-weight: 400;
   }
+
+    /* Heading weights */
+    h1, h2, h3, h4, h5, h6 {
+      @apply font-semibold; /* 600 weight works well */
+    }
+  
+    /* Better looking italics */
+    em, i {
+      font-style: italic;
+      font-family: var(--font-poppins); /* Ensures italic variant loads */
+    }
 
   
 @layer components {

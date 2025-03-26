@@ -34,7 +34,7 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 px-4 py-24 mx-auto max-w-7xl">
-        <div className={`space-y-8 text-center transition-all duration-1000 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+        <div className={`space-y-8 text-center transition-all mt-12 duration-1000 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
           {/* Main heading */}
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
             Smart City Transit Solutions

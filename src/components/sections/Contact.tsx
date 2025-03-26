@@ -78,18 +78,12 @@ const Contact = () => {
             </form>
           </div>
           <div className="space-y-8">
-            <div className="flex items-center gap-4">
-              <MapPin className="w-6 h-6 text-blue-400" />
-              <p>123 Innovation Street, Smart City, SC 12345</p>
-            </div>
+            
             <div className="flex items-center gap-4">
               <Mail className="w-6 h-6 text-blue-400" />
-              <p>contact@urbanmove.com</p>
+              <p>hello@urban-move.net</p>
             </div>
-            <div className="flex items-center gap-4">
-              <Phone className="w-6 h-6 text-blue-400" />
-              <p>+1 (555) 123-4567</p>
-            </div>
+           
             <div className="flex gap-4 mt-8">
               <LinkedinIcon className="w-6 h-6 cursor-pointer hover:text-blue-400 transition-colors" />
               <TwitterIcon className="w-6 h-6 cursor-pointer hover:text-blue-400 transition-colors" />
