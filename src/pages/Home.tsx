@@ -32,10 +32,9 @@ export default function Home() {
       <AboutUs/>
       <FeaturesSection/>
       <SolutionsSection/>
-      <CaseStudies/>
       <Contact/>
       <HowItWorks/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
       <Resources/>
       <Footer/>
     </main>

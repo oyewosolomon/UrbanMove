@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   const links = [
     'Home', 'About', 'Features', 'Solutions', 
-    'Case Studies', 'Blog', 'Contact'
+    'Impact', 'Contact'
   ];
 
   return (
